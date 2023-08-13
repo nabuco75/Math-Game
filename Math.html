@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Math.css" />
+    <title>Arithmetic Game</title>
+  </head>
+  <body>
+    <div id="game-interface">
+      <h1>Arithmetic Game</h1>
+      <div id="question"></div>
+      <div id="answers"></div>
+      <div id="message"></div>
+      <button id="next-round">Next Round</button>
+      <button id="end-game">End Game</button>
+    </div>
+    <div id="results-interface" class="hidden">
+      <h1>Results</h1>
+      <div class="results-container">
+        <p id="correct-answers-result" class="result">Correct Answers: <span id="correct-answers"></span></p>
+        <p id="incorrect-answers-result" class="result">Incorrect Answers: <span id="incorrect-answers"></span></p>
+        <p id="percentage-result" class="result">Percentage: <span id="percentage"></span></p>
+        <p id="personalized-message"></p>
+      </div>
+    </div>
+    <script src="Math.js"></script>
+  </body>
+</html>
